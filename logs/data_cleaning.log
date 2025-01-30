@@ -1,0 +1,24 @@
+2025-01-30 19:04:45,560 - INFO -  CSV file '/home/nahomnadew/Desktop/10x/week7/Kara_Solutions/data/telegram_data.csv' loaded successfully.
+2025-01-30 19:06:31,683 - INFO -  CSV file '/home/nahomnadew/Desktop/10x/week7/Kara_Solutions/data/telegram_data.csv' loaded successfully.
+2025-01-30 19:07:12,199 - INFO -  Duplicates removed from dataset.
+2025-01-30 19:07:12,224 - INFO -  Date column formatted to datetime.
+2025-01-30 19:07:12,227 - INFO -  Missing values filled.
+2025-01-30 19:07:12,228 - ERROR -  Data cleaning error: 'Channel Title'
+2025-01-30 19:21:01,361 - INFO -  Duplicates removed from dataset.
+2025-01-30 19:21:01,379 - INFO -  Date column formatted to datetime.
+2025-01-30 19:21:01,383 - INFO -  Missing values filled.
+2025-01-30 19:21:01,384 - ERROR -  Data cleaning error: 'Channel Title'
+2025-01-30 19:21:17,071 - INFO -  CSV file '/home/nahomnadew/Desktop/10x/week7/Kara_Solutions/data/telegram_data.csv' loaded successfully.
+2025-01-30 19:21:17,091 - INFO -  Duplicates removed from dataset.
+2025-01-30 19:21:17,115 - INFO -  Date column formatted to datetime.
+2025-01-30 19:21:17,120 - INFO -  Missing values filled.
+2025-01-30 19:21:17,120 - ERROR -  Data cleaning error: 'Channel Title'
+2025-01-30 19:30:50,372 - INFO -  CSV file '/home/nahomnadew/Desktop/10x/week7/Kara_Solutions/data/telegram_data2.csv' loaded successfully.
+2025-01-30 19:30:52,984 - INFO -  Duplicates removed from dataset.
+2025-01-30 19:30:52,999 - INFO -  Date column formatted to datetime.
+2025-01-30 19:30:53,002 - INFO -  Missing values filled.
+2025-01-30 19:30:53,038 - INFO -  Text columns standardized.
+2025-01-30 19:30:53,098 - INFO -  Emojis extracted and stored in 'emoji_used' column.
+2025-01-30 19:30:53,214 - INFO - YouTube links extracted and stored in 'youtube_links' column.
+2025-01-30 19:30:53,219 - INFO -  Data cleaning completed successfully.
+2025-01-30 19:33:05,705 - INFO -  Cleaned data saved successfully to '/home/nahomnadew/Desktop/10x/week7/Kara_Solutions/data/cleaned_telegram_data.csv'.
