@@ -1,3 +1,4 @@
 .env
 /data
 telegram_scraping.py
+target/
