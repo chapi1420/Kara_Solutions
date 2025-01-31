@@ -1,0 +1,17 @@
+models:
+  - name: clean_telegram_data
+    description: "Cleaned Telegram business data"
+    columns:
+      - name: channel_title
+        tests:
+          - not_null
+      - name: channel_username
+        tests:
+          - not_null
+      - name: message_id
+        tests:
+          - unique
+          - not_null
+      - name: message
+        tests:
+          - not_null
