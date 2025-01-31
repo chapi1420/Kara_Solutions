@@ -42,14 +42,6 @@ The project is divided into four main tasks:
    - Remove duplicates, handle missing values, and standardize formats.
    - Use DBT (Data Build Tool) for data transformation.
 
-3. **Object Detection Using YOLO**
-   - Set up the environment with necessary dependencies.
-   - Collect images and use a pre-trained YOLO model for object detection.
-   - Store detection results in a database.
-
-4. **Expose Collected Data Using FastAPI**
-   - Create a FastAPI application to serve the collected data.
-   - Implement CRUD operations and define API endpoints.
 
 ## Installation
 
