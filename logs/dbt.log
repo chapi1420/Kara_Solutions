@@ -853,3 +853,313 @@ There are 1 unused configuration paths:
 [0m19:26:29.157456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7939f9fb3aa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7939f6faa000>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7939f5fbf320>]}
 [0m19:26:29.157738 [debug] [MainThread]: Flushing usage events
 [0m19:26:30.587280 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:05:22.007306 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x793b2cd16b40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x793b2c19cfb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x793b2c103ce0>]}
+
+
+============================== 20:05:22.010250 | 838ff604-ee30-4149-a8b6-e3f12f2a08e1 ==============================
+[0m20:05:22.010250 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:05:22.010865 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/home/nahomnadew/Desktop/10x/week7/Kara_Solutions/logs', 'version_check': 'True', 'profiles_dir': '/home/nahomnadew/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:05:22.151996 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '838ff604-ee30-4149-a8b6-e3f12f2a08e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x793b2ba06450>]}
+[0m20:05:22.198323 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '838ff604-ee30-4149-a8b6-e3f12f2a08e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x793b2c0db5f0>]}
+[0m20:05:22.207522 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:05:22.258942 [debug] [MainThread]: checksum: 12b12750b70de726cfd89136b8e24afc3f3e77597a97bff40ab7e5f9b39d5e18, vars: {}, profile: , target: , version: 1.9.2
+[0m20:05:22.296276 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m20:05:22.296550 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m20:05:22.296951 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project.example
+[0m20:05:22.299679 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '838ff604-ee30-4149-a8b6-e3f12f2a08e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x793b2b3997f0>]}
+[0m20:05:22.323507 [debug] [MainThread]: Wrote artifact WritableManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/manifest.json
+[0m20:05:22.325259 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/semantic_manifest.json
+[0m20:05:22.337251 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '838ff604-ee30-4149-a8b6-e3f12f2a08e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x793b2ad9c7d0>]}
+[0m20:05:22.337658 [info ] [MainThread]: Found 431 macros
+[0m20:05:22.337950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '838ff604-ee30-4149-a8b6-e3f12f2a08e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x793b2bbe7c80>]}
+[0m20:05:22.338903 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m20:05:22.340114 [debug] [MainThread]: Command end result
+[0m20:05:22.350397 [debug] [MainThread]: Wrote artifact WritableManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/manifest.json
+[0m20:05:22.351481 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/semantic_manifest.json
+[0m20:05:22.353786 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/run_results.json
+[0m20:05:22.354630 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.40910444, "process_in_blocks": "13280", "process_kernel_time": 0.084998, "process_mem_max_rss": "101976", "process_out_blocks": "1656", "process_user_time": 1.032987}
+[0m20:05:22.355017 [debug] [MainThread]: Command `dbt run` succeeded at 20:05:22.354939 after 0.41 seconds
+[0m20:05:22.355307 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x793b2bca95b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x793b2b726d80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x793b2b74bfe0>]}
+[0m20:05:22.355595 [debug] [MainThread]: Flushing usage events
+[0m20:05:23.572059 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:05:32.393226 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79fedaf273b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79fedb1248c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79fedb0c6b40>]}
+
+
+============================== 20:05:32.395900 | 97a38413-b722-4167-bde1-55af4d4cb341 ==============================
+[0m20:05:32.395900 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:05:32.396326 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/nahomnadew/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/home/nahomnadew/Desktop/10x/week7/Kara_Solutions/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt test', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:05:32.511281 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '97a38413-b722-4167-bde1-55af4d4cb341', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79fedb95bb30>]}
+[0m20:05:32.557656 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '97a38413-b722-4167-bde1-55af4d4cb341', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79fedb05f9b0>]}
+[0m20:05:32.558361 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:05:32.607940 [debug] [MainThread]: checksum: 12b12750b70de726cfd89136b8e24afc3f3e77597a97bff40ab7e5f9b39d5e18, vars: {}, profile: , target: , version: 1.9.2
+[0m20:05:32.635492 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m20:05:32.635794 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m20:05:32.636150 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project.example
+[0m20:05:32.638860 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '97a38413-b722-4167-bde1-55af4d4cb341', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79fedb200710>]}
+[0m20:05:32.662844 [debug] [MainThread]: Wrote artifact WritableManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/manifest.json
+[0m20:05:32.664362 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/semantic_manifest.json
+[0m20:05:32.685973 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '97a38413-b722-4167-bde1-55af4d4cb341', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79feda1b0f20>]}
+[0m20:05:32.686340 [info ] [MainThread]: Found 431 macros
+[0m20:05:32.686719 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '97a38413-b722-4167-bde1-55af4d4cb341', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79feda5aac00>]}
+[0m20:05:32.688217 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m20:05:32.689406 [debug] [MainThread]: Command end result
+[0m20:05:32.698226 [debug] [MainThread]: Wrote artifact WritableManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/manifest.json
+[0m20:05:32.699471 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/semantic_manifest.json
+[0m20:05:32.701666 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/run_results.json
+[0m20:05:32.702736 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 0.37393486, "process_in_blocks": "1968", "process_kernel_time": 0.100756, "process_mem_max_rss": "103880", "process_out_blocks": "1656", "process_user_time": 1.042478}
+[0m20:05:32.703383 [debug] [MainThread]: Command `dbt test` succeeded at 20:05:32.703246 after 0.37 seconds
+[0m20:05:32.703792 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79fedb1038f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79fedb37bd70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79fed9fa7020>]}
+[0m20:05:32.704140 [debug] [MainThread]: Flushing usage events
+[0m20:05:33.710535 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:06:00.800223 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73fec8a1b5c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73fec8ddf290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73fec91fa4e0>]}
+
+
+============================== 20:06:00.802193 | 9c4e44b3-eb37-403e-8ef8-220f775e9718 ==============================
+[0m20:06:00.802193 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:06:00.802533 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/home/nahomnadew/Desktop/10x/week7/Kara_Solutions/logs', 'profiles_dir': '/home/nahomnadew/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt docs generate', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:06:00.931005 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9c4e44b3-eb37-403e-8ef8-220f775e9718', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73feca823fe0>]}
+[0m20:06:00.977210 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9c4e44b3-eb37-403e-8ef8-220f775e9718', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73fec9216210>]}
+[0m20:06:00.977752 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:06:01.023175 [debug] [MainThread]: checksum: 12b12750b70de726cfd89136b8e24afc3f3e77597a97bff40ab7e5f9b39d5e18, vars: {}, profile: , target: , version: 1.9.2
+[0m20:06:01.052475 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m20:06:01.052759 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m20:06:01.053132 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project.example
+[0m20:06:01.056210 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9c4e44b3-eb37-403e-8ef8-220f775e9718', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73fec8f4e270>]}
+[0m20:06:01.074945 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9c4e44b3-eb37-403e-8ef8-220f775e9718', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73fec7d89460>]}
+[0m20:06:01.075413 [info ] [MainThread]: Found 431 macros
+[0m20:06:01.075874 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9c4e44b3-eb37-403e-8ef8-220f775e9718', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73fec83cf590>]}
+[0m20:06:01.077134 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m20:06:01.078463 [debug] [MainThread]: Command end result
+[0m20:06:01.100824 [debug] [MainThread]: Wrote artifact WritableManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/manifest.json
+[0m20:06:01.103881 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/semantic_manifest.json
+[0m20:06:01.106890 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/run_results.json
+[0m20:06:01.109556 [debug] [MainThread]: Acquiring new postgres connection 'generate_catalog'
+[0m20:06:01.109955 [info ] [MainThread]: Building catalog
+[0m20:06:01.150548 [debug] [MainThread]: Wrote artifact CatalogArtifact to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/catalog.json
+[0m20:06:01.163823 [debug] [MainThread]: Wrote artifact WritableManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/manifest.json
+[0m20:06:01.164857 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/semantic_manifest.json
+[0m20:06:01.165155 [info ] [MainThread]: Catalog written to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/catalog.json
+[0m20:06:01.165854 [debug] [MainThread]: Resource report: {"command_name": "generate", "command_success": true, "command_wall_clock_time": 0.43547836, "process_in_blocks": "5096", "process_kernel_time": 0.121084, "process_mem_max_rss": "104784", "process_out_blocks": "5008", "process_user_time": 1.132791}
+[0m20:06:01.166200 [debug] [MainThread]: Command `dbt docs generate` succeeded at 20:06:01.166134 after 0.44 seconds
+[0m20:06:01.166452 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m20:06:01.166697 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73fec8a4f8c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73fec8a01760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73fec765f8c0>]}
+[0m20:06:01.166991 [debug] [MainThread]: Flushing usage events
+[0m20:06:02.181299 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:06:22.562936 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7d4c1862a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7d4d6d6ba0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7d4bbc70e0>]}
+
+
+============================== 20:06:22.565842 | b2a16fca-5df7-4df4-8e8f-750d595efab2 ==============================
+[0m20:06:22.565842 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:06:22.566443 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/nahomnadew/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/home/nahomnadew/Desktop/10x/week7/Kara_Solutions/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt docs serve', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:06:22.681900 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b2a16fca-5df7-4df4-8e8f-750d595efab2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7d4b15d6a0>]}
+[0m20:06:22.727237 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b2a16fca-5df7-4df4-8e8f-750d595efab2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7d4efb3b30>]}
+[0m20:07:58.619020 [error] [MainThread]: Encountered an error:
+
+[0m20:07:58.630906 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/nahomnadew/Desktop/10x/env7/lib/python3.12/site-packages/dbt/cli/requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nahomnadew/Desktop/10x/env7/lib/python3.12/site-packages/dbt/cli/requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nahomnadew/Desktop/10x/env7/lib/python3.12/site-packages/dbt/cli/requires.py", line 235, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nahomnadew/Desktop/10x/env7/lib/python3.12/site-packages/dbt/cli/requires.py", line 264, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nahomnadew/Desktop/10x/env7/lib/python3.12/site-packages/dbt/cli/requires.py", line 311, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nahomnadew/Desktop/10x/env7/lib/python3.12/site-packages/dbt/cli/main.py", line 301, in docs_serve
+    results = task.run()
+              ^^^^^^^^^^
+  File "/home/nahomnadew/Desktop/10x/env7/lib/python3.12/site-packages/dbt/task/docs/serve.py", line 29, in run
+    httpd.serve_forever()
+  File "/usr/lib/python3.12/socketserver.py", line 235, in serve_forever
+    ready = selector.select(poll_interval)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+[0m20:07:58.632247 [debug] [MainThread]: Resource report: {"command_name": "serve", "command_success": false, "command_wall_clock_time": 96.13297, "process_in_blocks": "264", "process_kernel_time": 0.078355, "process_mem_max_rss": "97852", "process_out_blocks": "3368", "process_user_time": 0.959353}
+[0m20:07:58.632855 [debug] [MainThread]: Command `dbt docs serve` failed at 20:07:58.632710 after 96.13 seconds
+[0m20:07:58.633385 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7d4b6c7e30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7d4aeb2b10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7d4b777bf0>]}
+[0m20:07:58.634039 [debug] [MainThread]: Flushing usage events
+[0m20:08:00.662907 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:08:21.301349 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79c2f17f9100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79c2f188dd30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79c2f195f320>]}
+
+
+============================== 20:08:21.303976 | 1c33f946-2141-4b88-8f81-f283f979f697 ==============================
+[0m20:08:21.303976 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:08:21.304347 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/nahomnadew/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/home/nahomnadew/Desktop/10x/week7/Kara_Solutions/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt docs serve', 'send_anonymous_usage_stats': 'True'}
+[0m20:08:21.421339 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1c33f946-2141-4b88-8f81-f283f979f697', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79c2f14f4cb0>]}
+[0m20:08:21.470348 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1c33f946-2141-4b88-8f81-f283f979f697', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79c2f1f0c4a0>]}
+[0m20:10:19.951244 [error] [MainThread]: Encountered an error:
+
+[0m20:10:19.955081 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/nahomnadew/Desktop/10x/env7/lib/python3.12/site-packages/dbt/cli/requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nahomnadew/Desktop/10x/env7/lib/python3.12/site-packages/dbt/cli/requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nahomnadew/Desktop/10x/env7/lib/python3.12/site-packages/dbt/cli/requires.py", line 235, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nahomnadew/Desktop/10x/env7/lib/python3.12/site-packages/dbt/cli/requires.py", line 264, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nahomnadew/Desktop/10x/env7/lib/python3.12/site-packages/dbt/cli/requires.py", line 311, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nahomnadew/Desktop/10x/env7/lib/python3.12/site-packages/dbt/cli/main.py", line 301, in docs_serve
+    results = task.run()
+              ^^^^^^^^^^
+  File "/home/nahomnadew/Desktop/10x/env7/lib/python3.12/site-packages/dbt/task/docs/serve.py", line 29, in run
+    httpd.serve_forever()
+  File "/usr/lib/python3.12/socketserver.py", line 235, in serve_forever
+    ready = selector.select(poll_interval)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+[0m20:10:19.956331 [debug] [MainThread]: Resource report: {"command_name": "serve", "command_success": false, "command_wall_clock_time": 118.72041, "process_in_blocks": "0", "process_kernel_time": 0.089305, "process_mem_max_rss": "97896", "process_out_blocks": "3368", "process_user_time": 0.986378}
+[0m20:10:19.956702 [debug] [MainThread]: Command `dbt docs serve` failed at 20:10:19.956633 after 118.72 seconds
+[0m20:10:19.957006 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79c2f0c226c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79c2f0c22480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79c2f0cbfbc0>]}
+[0m20:10:19.957259 [debug] [MainThread]: Flushing usage events
+[0m20:10:21.971826 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:11:02.898617 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eb57bf5c680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eb57be64200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eb57bb04a10>]}
+
+
+============================== 20:11:02.900706 | 9d31fc30-408a-4e1d-9dd3-edf5209acf95 ==============================
+[0m20:11:02.900706 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:11:02.901124 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/home/nahomnadew/Desktop/10x/week7/Kara_Solutions/logs', 'profiles_dir': '/home/nahomnadew/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:11:03.031793 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9d31fc30-408a-4e1d-9dd3-edf5209acf95', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eb57b333470>]}
+[0m20:11:03.082296 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9d31fc30-408a-4e1d-9dd3-edf5209acf95', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eb57b896a50>]}
+[0m20:11:03.082970 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:11:03.127640 [debug] [MainThread]: checksum: 12b12750b70de726cfd89136b8e24afc3f3e77597a97bff40ab7e5f9b39d5e18, vars: {}, profile: , target: , version: 1.9.2
+[0m20:11:03.158366 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m20:11:03.158771 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m20:11:03.159182 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project.example
+[0m20:11:03.162653 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9d31fc30-408a-4e1d-9dd3-edf5209acf95', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eb57b1ca1b0>]}
+[0m20:11:03.187356 [debug] [MainThread]: Wrote artifact WritableManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/manifest.json
+[0m20:11:03.189049 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/semantic_manifest.json
+[0m20:11:03.197502 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9d31fc30-408a-4e1d-9dd3-edf5209acf95', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eb57ac47a10>]}
+[0m20:11:03.197884 [info ] [MainThread]: Found 431 macros
+[0m20:11:03.198173 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9d31fc30-408a-4e1d-9dd3-edf5209acf95', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eb57b353c80>]}
+[0m20:11:03.199225 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m20:11:03.201073 [debug] [MainThread]: Command end result
+[0m20:11:03.210381 [debug] [MainThread]: Wrote artifact WritableManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/manifest.json
+[0m20:11:03.211540 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/semantic_manifest.json
+[0m20:11:03.214001 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/run_results.json
+[0m20:11:03.214758 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.37964374, "process_in_blocks": "0", "process_kernel_time": 0.109822, "process_mem_max_rss": "102132", "process_out_blocks": "1656", "process_user_time": 1.066274}
+[0m20:11:03.215131 [debug] [MainThread]: Command `dbt run` succeeded at 20:11:03.215060 after 0.38 seconds
+[0m20:11:03.215436 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eb57c09dd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eb57c4db7a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7eb57be945c0>]}
+[0m20:11:03.215777 [debug] [MainThread]: Flushing usage events
+[0m20:11:04.366867 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:18:02.593555 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x779f31fa0410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x779f31fa22d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x779f31fa03e0>]}
+
+
+============================== 20:18:02.596546 | 35ceb1a7-b423-4337-8d7b-94ab963128f1 ==============================
+[0m20:18:02.596546 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:18:02.597168 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/nahomnadew/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/home/nahomnadew/Desktop/10x/week7/Kara_Solutions/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m20:18:02.729599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '35ceb1a7-b423-4337-8d7b-94ab963128f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x779f31bffe90>]}
+[0m20:18:02.785092 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '35ceb1a7-b423-4337-8d7b-94ab963128f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x779f322639e0>]}
+[0m20:18:02.785818 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:18:02.835447 [debug] [MainThread]: checksum: 12b12750b70de726cfd89136b8e24afc3f3e77597a97bff40ab7e5f9b39d5e18, vars: {}, profile: , target: , version: 1.9.2
+[0m20:18:02.860885 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m20:18:02.861510 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '35ceb1a7-b423-4337-8d7b-94ab963128f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x779f3159bdd0>]}
+[0m20:18:03.229871 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_project
+[0m20:18:03.232709 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '35ceb1a7-b423-4337-8d7b-94ab963128f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x779f3113c500>]}
+[0m20:18:03.253904 [debug] [MainThread]: Wrote artifact WritableManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/manifest.json
+[0m20:18:03.256347 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/semantic_manifest.json
+[0m20:18:03.264860 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '35ceb1a7-b423-4337-8d7b-94ab963128f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x779f316b8560>]}
+[0m20:18:03.265223 [info ] [MainThread]: Found 431 macros
+[0m20:18:03.265461 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '35ceb1a7-b423-4337-8d7b-94ab963128f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x779f317aedb0>]}
+[0m20:18:03.266332 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m20:18:03.266680 [debug] [MainThread]: Command end result
+[0m20:18:03.275369 [debug] [MainThread]: Wrote artifact WritableManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/manifest.json
+[0m20:18:03.276779 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/semantic_manifest.json
+[0m20:18:03.278881 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/run_results.json
+[0m20:18:03.279471 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.7518746, "process_in_blocks": "0", "process_kernel_time": 0.093709, "process_mem_max_rss": "102280", "process_out_blocks": "2472", "process_user_time": 1.471439}
+[0m20:18:03.279744 [debug] [MainThread]: Command `dbt run` succeeded at 20:18:03.279681 after 0.75 seconds
+[0m20:18:03.280045 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x779f322fa5a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x779f3172d4f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x779f315991f0>]}
+[0m20:18:03.280288 [debug] [MainThread]: Flushing usage events
+[0m20:18:04.429954 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:21:02.371941 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f84088c70b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f84099b5f70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8408943590>]}
+
+
+============================== 20:21:02.374146 | b9449828-b8c7-4a72-813b-36737f149994 ==============================
+[0m20:21:02.374146 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:21:02.374505 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/nahomnadew/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/home/nahomnadew/Desktop/10x/week7/Kara_Solutions/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:21:02.496197 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b9449828-b8c7-4a72-813b-36737f149994', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8407fcfe90>]}
+[0m20:21:02.548184 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b9449828-b8c7-4a72-813b-36737f149994', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f840ab90fb0>]}
+[0m20:21:02.548778 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:21:02.595561 [debug] [MainThread]: checksum: 12b12750b70de726cfd89136b8e24afc3f3e77597a97bff40ab7e5f9b39d5e18, vars: {}, profile: , target: , version: 1.9.2
+[0m20:21:02.619568 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m20:21:02.619934 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'b9449828-b8c7-4a72-813b-36737f149994', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f840799ec60>]}
+[0m20:21:02.998116 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.DBT_for_ELT
+[0m20:21:03.001136 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b9449828-b8c7-4a72-813b-36737f149994', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8407eaf1d0>]}
+[0m20:21:03.022555 [debug] [MainThread]: Wrote artifact WritableManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/manifest.json
+[0m20:21:03.024275 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/semantic_manifest.json
+[0m20:21:03.033532 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b9449828-b8c7-4a72-813b-36737f149994', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8407824d70>]}
+[0m20:21:03.033913 [info ] [MainThread]: Found 431 macros
+[0m20:21:03.034151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b9449828-b8c7-4a72-813b-36737f149994', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8407dbd400>]}
+[0m20:21:03.035098 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m20:21:03.035463 [debug] [MainThread]: Command end result
+[0m20:21:03.045173 [debug] [MainThread]: Wrote artifact WritableManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/manifest.json
+[0m20:21:03.046215 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/semantic_manifest.json
+[0m20:21:03.048708 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/run_results.json
+[0m20:21:03.049596 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.74329156, "process_in_blocks": "0", "process_kernel_time": 0.094816, "process_mem_max_rss": "102092", "process_out_blocks": "2472", "process_user_time": 1.447201}
+[0m20:21:03.050010 [debug] [MainThread]: Command `dbt run` succeeded at 20:21:03.049932 after 0.74 seconds
+[0m20:21:03.050304 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8409200b30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8407fcd340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f840795ff50>]}
+[0m20:21:03.050582 [debug] [MainThread]: Flushing usage events
+[0m20:21:04.236549 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:21:26.936195 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a963acccce0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a963b1cbc20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a963acce7e0>]}
+
+
+============================== 20:21:26.938236 | d007ee81-2199-40b9-8d91-bef734884732 ==============================
+[0m20:21:26.938236 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:21:26.938592 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/nahomnadew/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': '/home/nahomnadew/Desktop/10x/week7/Kara_Solutions/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:21:27.057049 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd007ee81-2199-40b9-8d91-bef734884732', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a963b4d1df0>]}
+[0m20:21:27.108722 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd007ee81-2199-40b9-8d91-bef734884732', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a963aae17f0>]}
+[0m20:21:27.109362 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:21:27.155676 [debug] [MainThread]: checksum: 12b12750b70de726cfd89136b8e24afc3f3e77597a97bff40ab7e5f9b39d5e18, vars: {}, profile: , target: , version: 1.9.2
+[0m20:21:27.181630 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m20:21:27.182031 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'd007ee81-2199-40b9-8d91-bef734884732', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a963a16fce0>]}
+[0m20:21:27.544059 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models
+[0m20:21:27.546896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd007ee81-2199-40b9-8d91-bef734884732', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a963accfda0>]}
+[0m20:21:27.569833 [debug] [MainThread]: Wrote artifact WritableManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/manifest.json
+[0m20:21:27.571549 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/semantic_manifest.json
+[0m20:21:27.580226 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd007ee81-2199-40b9-8d91-bef734884732', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9639d12b10>]}
+[0m20:21:27.580574 [info ] [MainThread]: Found 431 macros
+[0m20:21:27.580808 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd007ee81-2199-40b9-8d91-bef734884732', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9639d17440>]}
+[0m20:21:27.581608 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m20:21:27.581968 [debug] [MainThread]: Command end result
+[0m20:21:27.591579 [debug] [MainThread]: Wrote artifact WritableManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/manifest.json
+[0m20:21:27.593027 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/semantic_manifest.json
+[0m20:21:27.595851 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/target/run_results.json
+[0m20:21:27.596594 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.72630525, "process_in_blocks": "0", "process_kernel_time": 0.111702, "process_mem_max_rss": "102320", "process_out_blocks": "2472", "process_user_time": 1.409252}
+[0m20:21:27.597081 [debug] [MainThread]: Command `dbt run` succeeded at 20:21:27.596961 after 0.73 seconds
+[0m20:21:27.597499 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a963b1cbc20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a963b6a6420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a963aed3ce0>]}
+[0m20:21:27.597895 [debug] [MainThread]: Flushing usage events
+[0m20:21:29.840932 [debug] [MainThread]: An error was encountered while trying to flush usage events
