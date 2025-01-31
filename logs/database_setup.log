@@ -1,0 +1,15 @@
+2025-01-31 20:50:20,656 - ERROR - Database connection failed: (psycopg2.OperationalError) could not translate host name "0107@localhost" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-01-31 20:51:53,218 - ERROR - Database connection failed: (psycopg2.OperationalError) could not translate host name "0107@localhost" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-01-31 20:56:30,421 - ERROR - ❌ Database connection failed: (psycopg2.OperationalError) could not translate host name "0107@localhost" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-01-31 20:59:17,799 - ERROR - ❌ Database connection failed: (psycopg2.OperationalError) could not translate host name "0107@localhost" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-01-31 20:59:49,441 - ERROR - ❌ Database connection failed: (psycopg2.OperationalError) could not translate host name "0107@localhost" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
