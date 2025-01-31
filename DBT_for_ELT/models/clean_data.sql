@@ -1,5 +1,5 @@
 WITH raw_data AS (
-    SELECT * FROM {{ source('staging', 'telegram_data') }}
+    SELECT * FROM {{ source('staging', '/home/nahomnadew/Desktop/10x/week7/Kara_Solutions/data/cleaned_telegram_data.csv') }}
 )
 
 SELECT DISTINCT
