@@ -18,11 +18,11 @@ class YOLOObjectDetector:
 
         load_dotenv()
         db_config = {
-            'dbname': 'DB_NAME',
-            'user': 'DB_USER',
-            'password': 'DB_PASS',
-            'host': 'DB_HOST',
-            'port': 'DB_PORT'
+            'dbname': 'DB_NAME_yolo',
+            'user': 'DB_USER_yolo',
+            'password': 'DB_PASS_yolo',
+            'host': 'DB_HOST_yolo',
+            'port': 'DB_PORT_yolo'
         }
 
         self.image_dir = image_dir
