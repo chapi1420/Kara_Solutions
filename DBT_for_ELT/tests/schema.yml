@@ -1,5 +1,5 @@
 models:
-  - name: clean_telegram_data
+  - name: staging
     description: "Cleaned Telegram business data"
     columns:
       - name: channel_title
