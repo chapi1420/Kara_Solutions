@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: staging
-    database: my_database
+    database: my_project
     schema: public
     tables:
       - name: /home/nahomnadew/Desktop/10x/week7/Kara_Solutions/data/cleaned_telegram_data.csv

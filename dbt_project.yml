@@ -1,5 +1,8 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
+
+
+
 # name or the intended use of these models
 name: 'DBT_for_ELT'
 version: '1.0.0'
@@ -21,7 +24,10 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 # Configuring models
 models:
-  # DBT_for_ELT:
+  DBT_for_ELT:
+    clean:
+      +materialized: table
+
     # +materialized: view
     # +schema: dbt_for_elt
     # +database: dbt_for_elt
