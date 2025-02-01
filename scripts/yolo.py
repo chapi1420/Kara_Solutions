@@ -7,13 +7,24 @@ from yolov5 import detect
 from dotenv import load_dotenv
 
 class YOLOObjectDetector:
-    def __init__(self, image_dir, db_config):
+    def __init__(self, image_dir):
         """
         Initialize the YOLO Object Detector.
 
         :param image_dir: Path to the directory containing images for object detection.
         :param db_config: Dictionary containing database connection details.
+
         """
+
+        load_dotenv()
+        db_config = {
+            'dbname': 'DB_NAME',
+            'user': 'DB_USER',
+            'password': 'DB_PASS',
+            'host': 'DB_HOST',
+            'port': 'DB_PORT'
+        }
+
         self.image_dir = image_dir
         self.db_config = db_config
         self.detection_results = []
