@@ -1,0 +1,67 @@
+2025-02-02 17:57:18,663 - INFO - Starting object detection process.
+2025-02-02 18:02:52,266 - INFO - Object detection completed successfully.
+2025-02-02 18:02:52,274 - INFO - Connecting to the database to store detection results.
+2025-02-02 18:02:52,274 - ERROR - An error occurred while storing results in the database: invalid integer value "DB_PORT_yolo" for connection option "port"
+
+2025-02-02 18:05:16,466 - INFO - Starting object detection process.
+2025-02-02 18:11:00,416 - INFO - Object detection completed successfully.
+2025-02-02 18:11:00,425 - INFO - Connecting to the database to store detection results.
+2025-02-02 18:11:00,426 - ERROR - An error occurred while storing results in the database: invalid integer value "DB_PORT_yolo" for connection option "port"
+
+2025-02-02 18:20:08,041 - INFO - Starting object detection process.
+2025-02-02 18:25:56,104 - INFO - Object detection completed successfully.
+2025-02-02 18:25:56,111 - INFO - Connecting to the database to store detection results.
+2025-02-02 18:25:56,111 - ERROR - An error occurred while storing results in the database: invalid integer value "DB_PORT_yolo" for connection option "port"
+
+2025-02-02 18:39:11,990 - INFO - Starting object detection process.
+2025-02-02 18:44:53,464 - INFO - Object detection completed successfully.
+2025-02-02 18:44:53,478 - INFO - Connecting to the database to store detection results.
+2025-02-02 18:44:53,512 - ERROR - An error occurred while storing results in the database: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+2025-02-02 18:45:34,485 - INFO - Connecting to the database to store detection results.
+2025-02-02 18:45:34,498 - ERROR - An error occurred while storing results in the database: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+2025-02-02 18:54:13,530 - INFO - Starting object detection process.
+2025-02-02 18:59:52,122 - INFO - Object detection completed successfully.
+2025-02-02 18:59:52,130 - INFO - Connecting to the database to store detection results.
+2025-02-02 18:59:52,159 - ERROR - An error occurred while storing results in the database: can't adapt type 'numpy.float32'
+2025-02-02 18:59:52,160 - INFO - Database connection closed.
+2025-02-02 19:13:00,031 - INFO - Starting object detection process.
+2025-02-02 19:18:23,002 - INFO - Object detection completed successfully.
+2025-02-02 19:18:23,008 - INFO - Connecting to the database to store detection results.
+2025-02-02 19:18:23,028 - ERROR - An error occurred while storing results in the database: could not convert string to float: '@lobelia4cosmetics_14008.jpg'
+2025-02-02 19:18:23,028 - INFO - Database connection closed.
+2025-02-02 19:19:46,623 - INFO - Connecting to the database to store detection results.
+2025-02-02 19:19:46,637 - ERROR - An error occurred while storing results in the database: could not convert string to float: '@lobelia4cosmetics_14008.jpg'
+2025-02-02 19:19:46,637 - INFO - Database connection closed.
+2025-02-02 19:19:48,705 - INFO - Connecting to the database to store detection results.
+2025-02-02 19:19:48,721 - ERROR - An error occurred while storing results in the database: could not convert string to float: '@lobelia4cosmetics_14008.jpg'
+2025-02-02 19:19:48,722 - INFO - Database connection closed.
+2025-02-02 19:20:32,529 - INFO - Starting object detection process.
+2025-02-02 19:25:55,025 - INFO - Object detection completed successfully.
+2025-02-02 19:25:55,036 - INFO - Connecting to the database to store detection results.
+2025-02-02 19:25:55,054 - ERROR - An error occurred while storing results in the database: function takes at most 2 arguments (8 given)
+2025-02-02 19:25:55,055 - INFO - Database connection closed.
+2025-02-02 19:34:03,131 - INFO - Starting object detection process.
+2025-02-02 19:39:21,831 - INFO - Object detection completed successfully.
+2025-02-02 19:39:21,838 - INFO - Connecting to the database to store detection results.
+2025-02-02 19:39:21,855 - ERROR - An error occurred while storing results in the database: syntax error at or near ")"
+LINE 3:     )
+            ^
+
+2025-02-02 19:39:21,856 - INFO - Database connection closed.
+2025-02-02 19:43:30,756 - INFO - Starting object detection process.
+2025-02-02 19:48:33,789 - INFO - Object detection completed successfully.
+2025-02-02 19:48:33,796 - INFO - Connecting to the database to store detection results.
+2025-02-02 19:48:33,812 - ERROR - An error occurred while storing results in the database: syntax error at end of input
+LINE 4:                 
+                        ^
+
+2025-02-02 19:48:33,812 - INFO - Database connection closed.
+2025-02-02 19:58:33,639 - INFO - Starting object detection process.
+2025-02-02 20:03:57,261 - INFO - Object detection completed successfully.
+2025-02-02 20:03:57,272 - INFO - Connecting to the database to store detection results.
+2025-02-02 20:03:57,419 - INFO - Detection results stored in the database successfully.
+2025-02-02 20:03:57,419 - INFO - Database connection closed.
