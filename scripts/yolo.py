@@ -4,10 +4,9 @@ import cv2
 import psycopg2
 import logging
 from yolov5 import detect
-from dotenv import load_dotenv
 
 class YOLOObjectDetector:
-    def __init__(self, image_dir):
+    def __init__(self, image_dir, db_config):
         """
         Initialize the YOLO Object Detector.
 
@@ -16,14 +15,8 @@ class YOLOObjectDetector:
 
         """
 
-        load_dotenv()
-        db_config = {
-            'dbname': 'DB_NAME_yolo',
-            'user': 'DB_USER_yolo',
-            'password': 'DB_PASS_yolo',
-            'host': 'DB_HOST_yolo',
-            'port': 'DB_PORT_yolo'
-        }
+          # Ensure it's an integer
+
 
         self.image_dir = image_dir
         self.db_config = db_config
@@ -109,7 +102,15 @@ class YOLOObjectDetector:
                 cur.execute("""
                 INSERT INTO detections (image_name, x1, y1, x2, y2, confidence, class)
                 VALUES (%s, %s, %s, %s, %s, %s, %s)
-                """, (result['image_name'], result['x1'], result['y1'], result['x2'], result['y2'], result['confidence'], result['class']))
+                """, (
+                    result['image_name'],
+                    float(result['x1']),
+                    float(result['y1']),
+                    float(result['x2']),
+                    float(result['y2']),
+                    float(result['confidence']),
+                    int(result['class'])  # Ensure the class is an integer
+                ))
 
             # Commit the transaction
             conn.commit()
@@ -126,10 +127,11 @@ class YOLOObjectDetector:
                 conn.close()
             self.logger.info("Database connection closed.")
 
+
     def run(self):
         """
         Run the entire process: object detection and storing results in the database.
-        """
+    """
         try:
             self.detect_objects()
             self.store_results_in_db()
@@ -140,7 +142,6 @@ class YOLOObjectDetector:
 
 if __name__ == "__main__":
     # Configuration for the database
-    load_dotenv()
     db_config = {
         'dbname': 'DB_NAME',
         'user': 'DB_USER',
