@@ -65,3 +65,18 @@ LINE 4:
 2025-02-02 20:03:57,272 - INFO - Connecting to the database to store detection results.
 2025-02-02 20:03:57,419 - INFO - Detection results stored in the database successfully.
 2025-02-02 20:03:57,419 - INFO - Database connection closed.
+2025-02-03 14:44:39,220 - INFO - Starting object detection process.
+2025-02-03 14:58:03,132 - INFO - Object detection completed successfully.
+2025-02-03 14:58:03,505 - INFO - Connecting to the database to store detection results.
+2025-02-03 14:58:03,788 - INFO - Detection results stored in the database successfully.
+2025-02-03 14:58:03,788 - INFO - Database connection closed.
+2025-02-03 15:29:13,930 - INFO - Starting object detection process.
+2025-02-03 15:35:12,638 - INFO - Object detection completed successfully.
+2025-02-03 15:41:56,445 - INFO - Starting object detection process.
+2025-02-03 15:42:12,687 - INFO - Starting object detection process.
+2025-02-03 15:58:10,495 - INFO - Starting object detection process.
+2025-02-03 15:58:36,136 - INFO - Starting object detection process.
+2025-02-03 16:05:22,654 - INFO - Object detection completed successfully.
+2025-02-03 16:12:52,869 - INFO - Connecting to the database to store detection results.
+2025-02-03 16:12:53,076 - INFO - Detection results stored in the database successfully.
+2025-02-03 16:12:53,076 - INFO - Database connection closed.
