@@ -4,11 +4,11 @@
 
 
 # name or the intended use of these models
-name: 'DBT_for_ELT'
+name: 'dbt_for_elt'
 version: '1.0.0'
 
 # This setting configures which "profile" dbt uses for this project.
-profile: 'DBT_for_ELT'
+profile: 'dbt_for_elt'
 
 # These configurations specify where dbt should look for different types of files.
 model-paths: ["models"]
@@ -24,8 +24,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 # Configuring models
 models:
-  DBT_for_ELT:
-    clean:
+  dbt_for_elt:
+    clean_data:
       +materialized: table
 
     # +materialized: view
