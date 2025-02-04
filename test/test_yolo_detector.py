@@ -1,14 +1,13 @@
 import unittest
 from unittest.mock import patch, MagicMock
 import os
-from your_module import YOLOObjectDetector  # Replace 'your_module' with the actual module name
-
+from ..scripts.yolo import YOLOObjectDetector  
 class TestYOLOObjectDetector(unittest.TestCase):
     
     @patch("torch.hub.load")
     @patch("os.listdir")
     def setUp(self, mock_listdir, mock_torch_hub_load):
-        # Mock the YOLO model
+        # Mock the YOLO 
         self.mock_model = MagicMock()
         mock_torch_hub_load.return_value = self.mock_model
         
